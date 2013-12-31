@@ -1,0 +1,439 @@
+
+pack.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bomb
+  rotate: false
+  xy: 2, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+bomb
+  rotate: false
+  xy: 2, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+bomb
+  rotate: false
+  xy: 76, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+bomb
+  rotate: false
+  xy: 2, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 4
+bomb
+  rotate: false
+  xy: 76, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 5
+bomb
+  rotate: false
+  xy: 150, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 6
+player1_down_moving
+  rotate: false
+  xy: 2, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player1_down_moving
+  rotate: false
+  xy: 76, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player1_down_stationary
+  rotate: false
+  xy: 150, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player1_left_moving
+  rotate: false
+  xy: 224, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player1_left_moving
+  rotate: false
+  xy: 2, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player1_left_moving
+  rotate: false
+  xy: 76, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+player1_left_stationary
+  rotate: false
+  xy: 150, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player1_right_moving
+  rotate: false
+  xy: 224, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player1_right_moving
+  rotate: false
+  xy: 298, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player1_right_moving
+  rotate: false
+  xy: 2, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+player1_right_stationary
+  rotate: false
+  xy: 76, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player1_up_moving
+  rotate: false
+  xy: 150, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player1_up_moving
+  rotate: false
+  xy: 224, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player1_up_stationary
+  rotate: false
+  xy: 298, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player2_down_moving
+  rotate: false
+  xy: 372, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player2_down_moving
+  rotate: false
+  xy: 76, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player2_down_stationary
+  rotate: false
+  xy: 150, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player2_left_moving
+  rotate: false
+  xy: 224, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player2_left_moving
+  rotate: false
+  xy: 298, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player2_left_moving
+  rotate: false
+  xy: 372, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+player2_left_stationary
+  rotate: false
+  xy: 446, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player2_right_moving
+  rotate: false
+  xy: 150, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player2_right_moving
+  rotate: false
+  xy: 224, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player2_right_moving
+  rotate: false
+  xy: 298, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+player2_right_stationary
+  rotate: false
+  xy: 372, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player2_up_moving
+  rotate: false
+  xy: 446, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player2_up_moving
+  rotate: false
+  xy: 520, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player2_up_stationary
+  rotate: false
+  xy: 224, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player3_down_moving
+  rotate: false
+  xy: 298, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player3_down_moving
+  rotate: false
+  xy: 372, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player3_down_stationary
+  rotate: false
+  xy: 446, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player3_left_moving
+  rotate: false
+  xy: 520, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player3_left_moving
+  rotate: false
+  xy: 594, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player3_left_moving
+  rotate: false
+  xy: 298, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+player3_left_stationary
+  rotate: false
+  xy: 372, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player3_right_moving
+  rotate: false
+  xy: 446, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player3_right_moving
+  rotate: false
+  xy: 520, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player3_right_moving
+  rotate: false
+  xy: 594, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+player3_right_stationary
+  rotate: false
+  xy: 668, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player3_up_moving
+  rotate: false
+  xy: 372, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player3_up_moving
+  rotate: false
+  xy: 446, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player3_up_stationary
+  rotate: false
+  xy: 520, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player4_down_moving
+  rotate: false
+  xy: 594, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player4_down_moving
+  rotate: false
+  xy: 668, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player4_down_stationary
+  rotate: false
+  xy: 742, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player4_left_moving
+  rotate: false
+  xy: 446, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player4_left_moving
+  rotate: false
+  xy: 520, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player4_left_moving
+  rotate: false
+  xy: 594, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+player4_left_stationary
+  rotate: false
+  xy: 668, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player4_right_moving
+  rotate: false
+  xy: 742, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player4_right_moving
+  rotate: false
+  xy: 816, 372
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player4_right_moving
+  rotate: false
+  xy: 520, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 3
+player4_right_stationary
+  rotate: false
+  xy: 594, 76
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+player4_up_moving
+  rotate: false
+  xy: 668, 150
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 1
+player4_up_moving
+  rotate: false
+  xy: 742, 224
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: 2
+player4_up_stationary
+  rotate: false
+  xy: 816, 298
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
