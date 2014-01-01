@@ -26,7 +26,7 @@ public class WorldRenderer {
 	private Rectangle		currentDebugBox = new Rectangle();	
 	private ShapeRenderer	debugBoxRenderer = new ShapeRenderer();
 	
-	public WorldRenderer(World world, float blockSize) {
+	public WorldRenderer(float blockSize) {
 		mBlockSize = blockSize;
 		mScreenWidth = Gdx.graphics.getWidth();
 		mScreenHeight = Gdx.graphics.getHeight();
@@ -36,8 +36,6 @@ public class WorldRenderer {
 		mScreenOffset.y = -(mScreenHeight / 2.0f) + mBlockSize;
 		
 		mCamera = new OrthographicCamera(mScreenWidth, mScreenHeight);
-		
-		mWorld = world;
 		
 		field = new Texture(Gdx.files.internal("data/field.png"));
 		field.setFilter(TextureFilter.Linear, TextureFilter.Linear);
@@ -49,15 +47,10 @@ public class WorldRenderer {
 		fieldSprite.setSize(mScreenWidth, mScreenHeight);
 		
 		batch = new SpriteBatch();
-		
-		Vector2 screenOffset = new Vector2();
-		screenOffset.x = -(mScreenWidth / 2.0f) + mBlockSize;
-		screenOffset.y = -(mScreenHeight / 2.0f) + mBlockSize;
-		
-		for (GameObject object : mWorld.getObjects()) {
-			object.SetOffset(screenOffset);
-			object.SetScale(mBlockSize);
-		}
+	}
+	
+	public void SetWorld(World world) {
+		mWorld = world;
 	}
 	
 	public Camera GetCamera() {

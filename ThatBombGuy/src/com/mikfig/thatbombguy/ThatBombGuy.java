@@ -20,8 +20,13 @@ public class ThatBombGuy implements ApplicationListener {
 	public void create() {
 		Texture.setEnforcePotImages(false);
 		
-		mWorld = new World(4);
-		mRenderer = new WorldRenderer(mWorld, 72.0f);
+		mRenderer = new WorldRenderer(72.0f);
+		
+		GameObject.BlockScale = mRender.GetBlockScale();
+		GameObject.ScreenOffset = mRenderer.GetScreenOffset();
+		
+		mWorld = new World(4, mRenderer);
+		mRenderer.SetWorld(mWorld);
 		
 		Gdx.input.setInputProcessor(new InputHandler(mRenderer.GetCamera(),
 													mWorld.GetPlayerAgent(),

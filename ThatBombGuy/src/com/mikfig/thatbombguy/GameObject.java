@@ -7,11 +7,11 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 
 public abstract class GameObject {
+	public static Vector2 	ScreenOffset;
+	public static float 	BlockScale;
+	
 	protected	GridPosition	mGridPosition;
 	protected	Color			mDebugBoxColor;
-	
-	private		Vector2			mScreenOffset;
-	private		float			mBlockScale;
 	
 	protected	Sprite			mCurrentSprite;
 	protected	World			mWorld;
@@ -28,7 +28,7 @@ public abstract class GameObject {
 	}
 	
 	public void Draw (SpriteBatch batch) {
-		mCurrentSprite.setPosition(mGridPosition.x * mBlockScale + mScreenOffset.x, mGridPosition.y * mBlockScale + mScreenOffset.y);
+		mCurrentSprite.setPosition(mGridPosition.x * BlockScale + ScreenOffset.x, mGridPosition.y * BlockScale + ScreenOffset.y);
 		mCurrentSprite.draw(batch);
 	}
 	
@@ -40,14 +40,6 @@ public abstract class GameObject {
 	
 	public GridPosition GetGridPosition() {
 		return mGridPosition;
-	}
-	
-	public void	SetOffset(Vector2 screenOffset) {
-		mScreenOffset = screenOffset;
-	}
-	
-	public void	SetScale(float blockScale) {
-		mBlockScale = blockScale;
 	}
 	
 	public void dispose() {
